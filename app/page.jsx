@@ -1,6 +1,6 @@
 app/page.jsx
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
 import { Phone, Droplets, Wrench, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
