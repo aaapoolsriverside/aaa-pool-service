@@ -88,3 +88,56 @@ const cardStyle = {
 
 const cardTitle = { margin: 0, fontSize: 18, fontWeight: 800 };
 const cardText = { marginTop: 10, marginBottom: 0, color: "#475569" };
+<section style={{ padding: "40px", background: "#f5f7fa" }}>
+  <h2>Request Service</h2>
+
+  <form action="https://formspree.io/f/mzdrlgbg" method="POST">
+    <input
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      required
+      style={{ display: "block", width: "100%", marginBottom: "10px", padding: "10px" }}
+    />
+
+    <input
+      type="tel"
+      name="phone"
+      placeholder="Phone Number"
+      required
+      style={{ display: "block", width: "100%", marginBottom: "10px", padding: "10px" }}
+    />
+
+    <input
+      type="email"
+      name="email"
+      placeholder="Email Address"
+      required
+      style={{ display: "block", width: "100%", marginBottom: "10px", padding: "10px" }}
+    />
+
+    <textarea
+      name="message"
+      placeholder="How can we help you?"
+      required
+      rows="4"
+      style={{ display: "block", width: "100%", marginBottom: "15px", padding: "10px" }}
+    />
+
+    <button
+      type="submit"
+      style={{
+        background: "#2563eb",
+        color: "white",
+        padding: "12px 20px",
+        borderRadius: "6px",
+        border: "none",
+        fontSize: "16px",
+        cursor: "pointer"
+      }}
+    >
+      Send Request
+    </button>
+  </form>
+</section>
+
