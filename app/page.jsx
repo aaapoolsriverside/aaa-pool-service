@@ -78,15 +78,14 @@ const cardText = { marginTop: 10, marginBottom: 0, color: "#475569" };
         © {new Date().getFullYear()} AAA Pool Service &amp; Repair · Riverside, CA · aaapools85@icloud.com
       </footer>
     </main>
-  );
-}
+  
 
 const cardStyle = {
   background: "white",
   borderRadius: 18,
   padding: 18,
   boxShadow: "0 6px 18px rgba(2,6,23,.08)",
-};
+
 
 
 <section style={{ padding: "40px", background: "#f5f7fa" }}>
