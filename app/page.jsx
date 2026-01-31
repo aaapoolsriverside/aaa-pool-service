@@ -140,4 +140,6 @@ const cardText = { marginTop: 10, marginBottom: 0, color: "#475569" };
     </button>
   </form>
 </section>
-
+<a href="/service-areas" style={{ display: "inline-block", marginTop: "12px", fontWeight: "700" }}>
+  Service Areas
+</a>
