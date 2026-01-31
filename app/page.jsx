@@ -1,4 +1,6 @@
 export default function Page() {
+  const cardTitle = { margin: 0, fontSize: 18, fontWeight: 800 };
+const cardText = { marginTop: 10, marginBottom: 0, color: "#475569" };
   return (
     <main style={{ minHeight: "100vh", background: "#f8fafc", color: "#0f172a" }}>
       <section
@@ -86,8 +88,7 @@ const cardStyle = {
   boxShadow: "0 6px 18px rgba(2,6,23,.08)",
 };
 
-const cardTitle = { margin: 0, fontSize: 18, fontWeight: 800 };
-const cardText = { marginTop: 10, marginBottom: 0, color: "#475569" };
+
 <section style={{ padding: "40px", background: "#f5f7fa" }}>
   <h2>Request Service</h2>
 
