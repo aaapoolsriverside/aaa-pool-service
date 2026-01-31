@@ -139,7 +139,9 @@ const cardStyle = {
       Send Request
     </button>
   </form>
+  <a href="/service-areas" style={{ ... }}>
+ View Service Areas
+  </a>a>
 </section>
-<a href="/service-areas" style={{ display: "inline-block", marginTop: "12px", fontWeight: "700" }}>
-  Service Areas
-</a>
+
+
