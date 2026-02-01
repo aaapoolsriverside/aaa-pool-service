@@ -141,7 +141,7 @@ const cardStyle = {
   </form>
   <a href="/service-areas" style={{ ... }}>
  View Service Areas
-  </a>a>
+  </a>
 </section>
 
 
