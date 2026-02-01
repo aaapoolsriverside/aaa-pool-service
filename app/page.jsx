@@ -80,15 +80,7 @@ const cardText = { marginTop: 10, marginBottom: 0, color: "#475569" };
     </main>
   
 
-const cardStyle = {
-  background: "white",
-  borderRadius: 18,
-  padding: 18,
-  boxShadow: "0 6px 18px rgba(2,6,23,.08)",
 
-
-
-<section style={{ padding: "40px", background: "#f5f7fa" }}>
   <h2>Request Service</h2>
 
   <form action="https://formspree.io/f/mzdrlgbg" method="POST">
