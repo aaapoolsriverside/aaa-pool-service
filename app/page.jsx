@@ -1,6 +1,8 @@
 <img
   src="/logo.png"
-  alt="AAA Pool Service & Repair"<section style={{ padding: "60px 20px", background: "#ffffff" }}>
+  alt="AAA Pool Service & Repair"
+  />
+  <section style={{ padding: "60px 20px", background: "#ffffff" }}>
   <div style={{ maxWidth: 1100, margin: "0 auto" }}>
     <h2 style={{ fontSize: 32, margin: 0, fontWeight: 800, textAlign: "center" }}>
       Customer Reviews
