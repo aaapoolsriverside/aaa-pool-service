@@ -1,6 +1,81 @@
 <img
   src="/logo.png"
-  alt="AAA Pool Service & Repair"
+  alt="AAA Pool Service & Repair"<section style={{ padding: "60px 20px", background: "#ffffff" }}>
+  <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+    <h2 style={{ fontSize: 32, margin: 0, fontWeight: 800, textAlign: "center" }}>
+      Customer Reviews
+    </h2>
+    <p style={{ marginTop: 10, marginBottom: 28, color: "#475569", textAlign: "center" }}>
+      Real feedback from homeowners we’ve helped in Riverside & surrounding areas.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+        gap: 16,
+      }}
+    >
+      {[
+        {
+          name: "Maria G.",
+          stars: "★★★★★",
+          text:
+            "Always on time and super professional. Our pool has never looked better. Great communication and fair pricing.",
+        },
+        {
+          name: "Jose R.",
+          stars: "★★★★★",
+          text:
+            "Fixed a leak fast and explained everything clearly. Honest work and clean results. Highly recommend.",
+        },
+        {
+          name: "Stephanie L.",
+          stars: "★★★★★",
+          text:
+            "Reliable weekly service and the water stays crystal clear. If something looks off, they catch it early.",
+        },
+      ].map((r, i) => (
+        <div
+          key={i}
+          style={{
+            background: "#f8fafc",
+            border: "1px solid #e2e8f0",
+            borderRadius: 16,
+            padding: 18,
+            boxShadow: "0 6px 18px rgba(15,23,42,0.06)",
+          }}
+        >
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <p style={{ margin: 0, fontWeight: 800 }}>{r.name}</p>
+            <p style={{ margin: 0, fontWeight: 800 }}>{r.stars}</p>
+          </div>
+          <p style={{ marginTop: 10, marginBottom: 0, color: "#334155", lineHeight: 1.5 }}>
+            “{r.text}”
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <div style={{ textAlign: "center", marginTop: 28 }}>
+      <a
+        href="tel:9513969765"
+        style={{
+          display: "inline-block",
+          padding: "12px 18px",
+          borderRadius: 999,
+          background: "#1d4ed8",
+          color: "white",
+          textDecoration: "none",
+          fontWeight: 800,
+        }}
+      >
+        Get a Quote (Call/Text)
+      </a>
+    </div>
+  </div>
+</section>
+
   style={{
     width: "180px",
     margin: "0 auto 20px",
