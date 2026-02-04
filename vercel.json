@@ -1,7 +1,0 @@
-{
-  "framework": "nextjs",
-  "outputDirectory": ".",
-  "routes": [
-    { "handle": "filesystem" }
-  ]
-}
