@@ -1,3 +1,12 @@
+<img
+  src="/logo.png"
+  alt="AAA Pool Service & Repair"
+  style={{
+    width: "180px",
+    margin: "0 auto 20px",
+    display: "block"
+  }}
+/>
 export default function Page() {
   const cardStyle = {
     background: "white",
