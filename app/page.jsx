@@ -28,6 +28,15 @@ export default function Page() {
           textAlign: "center",
         }}
       >
+       <img
+  src="/logo.png"
+  alt="AAA Pool Service & Repair"
+  style={{
+    width: "180px",
+    margin: "0 auto 20px",
+    display: "block"
+  }}
+/> 
         <h1 style={{ fontSize: 44, margin: 0, fontWeight: 800 }}>
           AAA Pool Service &amp; Repair
         </h1>
