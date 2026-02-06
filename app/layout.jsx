@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "AAA Pool Service & Repair | Jurupa Valley & Riverside CA",
   description:
